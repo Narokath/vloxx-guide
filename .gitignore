@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+*.zip
+*.evtc
+*.zevtc
+.DS_Store
+Thumbs.db
+p[1-4]-cm.svg
+p[1-4]-lcm.svg
+/diagrams/p[1-4]-cm.svg
+/diagrams/p[1-4]-lcm.svg
+
+/*-preview.svg
+/*-preview.png
