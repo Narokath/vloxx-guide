@@ -1,0 +1,518 @@
+{
+  "method": "Boss-only animation starts (67), matched stops (68), same actor, skill and health band; >1s and <180s between starts. Health bands >70%, >40%, >10%, <=10% label phases, not exact split boundaries. Intervals can include interruptions; these are observed recurrence, not cooldowns or a guaranteed schedule. Normal mode excluded. No new targeting rules are inferred.",
+  "total_indexed": 509,
+  "timing": [
+    {
+      "mode": "CM",
+      "skill": 80323,
+      "name": "Annihilating Orb",
+      "phase": 1,
+      "intervals": 927,
+      "recordings": 364,
+      "minimum_start_gap_s": 30.0,
+      "median_start_gap_s": 30.5,
+      "minimum_end_gap_s": 23.2,
+      "median_end_gap_s": 23.6
+    },
+    {
+      "mode": "CM",
+      "skill": 80483,
+      "name": "Division Eternal",
+      "phase": 3,
+      "intervals": 613,
+      "recordings": 127,
+      "minimum_start_gap_s": 8.8,
+      "median_start_gap_s": 18.8,
+      "minimum_end_gap_s": 5.1,
+      "median_end_gap_s": 15.2
+    },
+    {
+      "mode": "CM",
+      "skill": 80512,
+      "name": "Cosmic Charge",
+      "phase": 2,
+      "intervals": 317,
+      "recordings": 210,
+      "minimum_start_gap_s": 45.0,
+      "median_start_gap_s": 50.9,
+      "minimum_end_gap_s": 37.2,
+      "median_end_gap_s": 43.1
+    },
+    {
+      "mode": "CM",
+      "skill": 80555,
+      "name": "Thousand Strikes",
+      "phase": 2,
+      "intervals": 662,
+      "recordings": 234,
+      "minimum_start_gap_s": 11.0,
+      "median_start_gap_s": 15.3,
+      "minimum_end_gap_s": 5.0,
+      "median_end_gap_s": 9.3
+    },
+    {
+      "mode": "CM",
+      "skill": 80585,
+      "name": "Slice Through Reality",
+      "phase": 3,
+      "intervals": 153,
+      "recordings": 120,
+      "minimum_start_gap_s": 62.5,
+      "median_start_gap_s": 72.8,
+      "minimum_end_gap_s": 57.1,
+      "median_end_gap_s": 67.5
+    },
+    {
+      "mode": "CM",
+      "skill": 80629,
+      "name": "Greens",
+      "phase": 1,
+      "intervals": 655,
+      "recordings": 356,
+      "minimum_start_gap_s": 44.4,
+      "median_start_gap_s": 47.1,
+      "minimum_end_gap_s": 40.0,
+      "median_end_gap_s": 42.7
+    },
+    {
+      "mode": "CM",
+      "skill": 80629,
+      "name": "Greens",
+      "phase": 2,
+      "intervals": 312,
+      "recordings": 211,
+      "minimum_start_gap_s": 44.4,
+      "median_start_gap_s": 51.2,
+      "minimum_end_gap_s": 40.0,
+      "median_end_gap_s": 46.8
+    },
+    {
+      "mode": "CM",
+      "skill": 80629,
+      "name": "Greens",
+      "phase": 3,
+      "intervals": 286,
+      "recordings": 123,
+      "minimum_start_gap_s": 44.4,
+      "median_start_gap_s": 47.4,
+      "minimum_end_gap_s": 40.0,
+      "median_end_gap_s": 43.0
+    },
+    {
+      "mode": "CM",
+      "skill": 80653,
+      "name": "Surrounding Curse",
+      "phase": 1,
+      "intervals": 476,
+      "recordings": 346,
+      "minimum_start_gap_s": 49.4,
+      "median_start_gap_s": 51.4,
+      "minimum_end_gap_s": 45.4,
+      "median_end_gap_s": 47.4
+    },
+    {
+      "mode": "CM",
+      "skill": 80809,
+      "name": "Probability Distribution",
+      "phase": 1,
+      "intervals": 457,
+      "recordings": 344,
+      "minimum_start_gap_s": 32.0,
+      "median_start_gap_s": 44.4,
+      "minimum_end_gap_s": 30.0,
+      "median_end_gap_s": 42.4
+    },
+    {
+      "mode": "CM",
+      "skill": 80809,
+      "name": "Probability Distribution",
+      "phase": 2,
+      "intervals": 184,
+      "recordings": 174,
+      "minimum_start_gap_s": 32.4,
+      "median_start_gap_s": 48.8,
+      "minimum_end_gap_s": 30.4,
+      "median_end_gap_s": 46.8
+    },
+    {
+      "mode": "CM",
+      "skill": 80809,
+      "name": "Probability Distribution",
+      "phase": 3,
+      "intervals": 261,
+      "recordings": 122,
+      "minimum_start_gap_s": 32.1,
+      "median_start_gap_s": 42.0,
+      "minimum_end_gap_s": 30.1,
+      "median_end_gap_s": 40.0
+    },
+    {
+      "mode": "CM",
+      "skill": 80810,
+      "name": "Raging Storm",
+      "phase": 2,
+      "intervals": 263,
+      "recordings": 205,
+      "minimum_start_gap_s": 30.5,
+      "median_start_gap_s": 48.6,
+      "minimum_end_gap_s": 23.1,
+      "median_end_gap_s": 41.3
+    },
+    {
+      "mode": "CM",
+      "skill": 80916,
+      "name": "Worldpiercer",
+      "phase": 2,
+      "intervals": 402,
+      "recordings": 218,
+      "minimum_start_gap_s": 36.1,
+      "median_start_gap_s": 36.6,
+      "minimum_end_gap_s": 30.0,
+      "median_end_gap_s": 30.5
+    },
+    {
+      "mode": "CM",
+      "skill": 81053,
+      "name": "Excision Extremis",
+      "phase": 3,
+      "intervals": 644,
+      "recordings": 131,
+      "minimum_start_gap_s": 16.2,
+      "median_start_gap_s": 20.0,
+      "minimum_end_gap_s": 10.0,
+      "median_end_gap_s": 13.8
+    },
+    {
+      "mode": "CM",
+      "skill": 81076,
+      "name": "Ascension’s Sacrifice",
+      "phase": 1,
+      "intervals": 324,
+      "recordings": 309,
+      "minimum_start_gap_s": 46.8,
+      "median_start_gap_s": 47.2,
+      "minimum_end_gap_s": 40.8,
+      "median_end_gap_s": 41.2
+    },
+    {
+      "mode": "CM",
+      "skill": 81209,
+      "name": "Eternal Reflection",
+      "phase": 1,
+      "intervals": 2106,
+      "recordings": 394,
+      "minimum_start_gap_s": 8.8,
+      "median_start_gap_s": 10.1,
+      "minimum_end_gap_s": 5.0,
+      "median_end_gap_s": 6.3
+    },
+    {
+      "mode": "CM",
+      "skill": 81271,
+      "name": "Echoing Blade",
+      "phase": 3,
+      "intervals": 529,
+      "recordings": 139,
+      "minimum_start_gap_s": 25.4,
+      "median_start_gap_s": 28.1,
+      "minimum_end_gap_s": 20.0,
+      "median_end_gap_s": 22.7
+    },
+    {
+      "mode": "LCM",
+      "skill": 80323,
+      "name": "Annihilating Orb",
+      "phase": 1,
+      "intervals": 93,
+      "recordings": 35,
+      "minimum_start_gap_s": 30.0,
+      "median_start_gap_s": 30.6,
+      "minimum_end_gap_s": 23.2,
+      "median_end_gap_s": 23.7
+    },
+    {
+      "mode": "LCM",
+      "skill": 80483,
+      "name": "Division Eternal",
+      "phase": 3,
+      "intervals": 84,
+      "recordings": 16,
+      "minimum_start_gap_s": 8.8,
+      "median_start_gap_s": 18.7,
+      "minimum_end_gap_s": 5.1,
+      "median_end_gap_s": 15.0
+    },
+    {
+      "mode": "LCM",
+      "skill": 80512,
+      "name": "Cosmic Charge",
+      "phase": 2,
+      "intervals": 36,
+      "recordings": 19,
+      "minimum_start_gap_s": 45.2,
+      "median_start_gap_s": 54.6,
+      "minimum_end_gap_s": 37.4,
+      "median_end_gap_s": 46.8
+    },
+    {
+      "mode": "LCM",
+      "skill": 80555,
+      "name": "Thousand Strikes",
+      "phase": 2,
+      "intervals": 67,
+      "recordings": 21,
+      "minimum_start_gap_s": 11.0,
+      "median_start_gap_s": 15.8,
+      "minimum_end_gap_s": 5.0,
+      "median_end_gap_s": 9.8
+    },
+    {
+      "mode": "LCM",
+      "skill": 80585,
+      "name": "Slice Through Reality",
+      "phase": 3,
+      "intervals": 19,
+      "recordings": 14,
+      "minimum_start_gap_s": 66.7,
+      "median_start_gap_s": 72.7,
+      "minimum_end_gap_s": 61.4,
+      "median_end_gap_s": 67.3
+    },
+    {
+      "mode": "LCM",
+      "skill": 80629,
+      "name": "Greens",
+      "phase": 1,
+      "intervals": 64,
+      "recordings": 35,
+      "minimum_start_gap_s": 44.4,
+      "median_start_gap_s": 46.9,
+      "minimum_end_gap_s": 40.0,
+      "median_end_gap_s": 42.5
+    },
+    {
+      "mode": "LCM",
+      "skill": 80629,
+      "name": "Greens",
+      "phase": 2,
+      "intervals": 37,
+      "recordings": 19,
+      "minimum_start_gap_s": 44.4,
+      "median_start_gap_s": 54.6,
+      "minimum_end_gap_s": 40.0,
+      "median_end_gap_s": 50.2
+    },
+    {
+      "mode": "LCM",
+      "skill": 80629,
+      "name": "Greens",
+      "phase": 3,
+      "intervals": 39,
+      "recordings": 15,
+      "minimum_start_gap_s": 44.5,
+      "median_start_gap_s": 47.3,
+      "minimum_end_gap_s": 40.1,
+      "median_end_gap_s": 42.9
+    },
+    {
+      "mode": "LCM",
+      "skill": 80653,
+      "name": "Surrounding Curse",
+      "phase": 1,
+      "intervals": 58,
+      "recordings": 33,
+      "minimum_start_gap_s": 50.6,
+      "median_start_gap_s": 51.6,
+      "minimum_end_gap_s": 46.6,
+      "median_end_gap_s": 47.6
+    },
+    {
+      "mode": "LCM",
+      "skill": 80809,
+      "name": "Probability Distribution",
+      "phase": 1,
+      "intervals": 54,
+      "recordings": 32,
+      "minimum_start_gap_s": 43.7,
+      "median_start_gap_s": 44.7,
+      "minimum_end_gap_s": 41.7,
+      "median_end_gap_s": 42.7
+    },
+    {
+      "mode": "LCM",
+      "skill": 80809,
+      "name": "Probability Distribution",
+      "phase": 2,
+      "intervals": 18,
+      "recordings": 18,
+      "minimum_start_gap_s": 48.1,
+      "median_start_gap_s": 49.0,
+      "minimum_end_gap_s": 46.1,
+      "median_end_gap_s": 47.0
+    },
+    {
+      "mode": "LCM",
+      "skill": 80809,
+      "name": "Probability Distribution",
+      "phase": 3,
+      "intervals": 30,
+      "recordings": 15,
+      "minimum_start_gap_s": 40.1,
+      "median_start_gap_s": 41.6,
+      "minimum_end_gap_s": 38.1,
+      "median_end_gap_s": 39.6
+    },
+    {
+      "mode": "LCM",
+      "skill": 80810,
+      "name": "Raging Storm",
+      "phase": 2,
+      "intervals": 28,
+      "recordings": 19,
+      "minimum_start_gap_s": 30.6,
+      "median_start_gap_s": 49.1,
+      "minimum_end_gap_s": 23.2,
+      "median_end_gap_s": 41.7
+    },
+    {
+      "mode": "LCM",
+      "skill": 80916,
+      "name": "Worldpiercer",
+      "phase": 2,
+      "intervals": 39,
+      "recordings": 19,
+      "minimum_start_gap_s": 36.1,
+      "median_start_gap_s": 36.3,
+      "minimum_end_gap_s": 30.0,
+      "median_end_gap_s": 30.3
+    },
+    {
+      "mode": "LCM",
+      "skill": 81053,
+      "name": "Excision Extremis",
+      "phase": 3,
+      "intervals": 76,
+      "recordings": 16,
+      "minimum_start_gap_s": 16.2,
+      "median_start_gap_s": 20.3,
+      "minimum_end_gap_s": 10.0,
+      "median_end_gap_s": 14.1
+    },
+    {
+      "mode": "LCM",
+      "skill": 81076,
+      "name": "Ascension’s Sacrifice",
+      "phase": 1,
+      "intervals": 30,
+      "recordings": 30,
+      "minimum_start_gap_s": 46.9,
+      "median_start_gap_s": 47.3,
+      "minimum_end_gap_s": 40.9,
+      "median_end_gap_s": 41.3
+    },
+    {
+      "mode": "LCM",
+      "skill": 81209,
+      "name": "Eternal Reflection",
+      "phase": 1,
+      "intervals": 218,
+      "recordings": 41,
+      "minimum_start_gap_s": 8.8,
+      "median_start_gap_s": 10.5,
+      "minimum_end_gap_s": 5.0,
+      "median_end_gap_s": 6.7
+    },
+    {
+      "mode": "LCM",
+      "skill": 81271,
+      "name": "Echoing Blade",
+      "phase": 3,
+      "intervals": 68,
+      "recordings": 16,
+      "minimum_start_gap_s": 25.4,
+      "median_start_gap_s": 28.1,
+      "minimum_end_gap_s": 20.0,
+      "median_end_gap_s": 22.7
+    }
+  ],
+  "openings": [
+    {
+      "mode": "CM",
+      "phase": 1,
+      "sequence": [
+        "Greens",
+        "Surrounding Curse",
+        "Annihilating Orb",
+        "Probability Distribution"
+      ],
+      "count": 414,
+      "total_with_four_casts": 415
+    },
+    {
+      "mode": "CM",
+      "phase": 2,
+      "sequence": [
+        "Greens",
+        "Cosmic Charge",
+        "Worldpiercer",
+        "Raging Storm"
+      ],
+      "count": 180,
+      "total_with_four_casts": 267
+    },
+    {
+      "mode": "CM",
+      "phase": 3,
+      "sequence": [
+        "Greens",
+        "Echoing Blade",
+        "Slice Through Reality",
+        "Excision Extremis"
+      ],
+      "count": 132,
+      "total_with_four_casts": 145
+    },
+    {
+      "mode": "LCM",
+      "phase": 1,
+      "sequence": [
+        "Greens",
+        "Surrounding Curse",
+        "Annihilating Orb",
+        "Probability Distribution"
+      ],
+      "count": 43,
+      "total_with_four_casts": 43
+    },
+    {
+      "mode": "LCM",
+      "phase": 2,
+      "sequence": [
+        "Greens",
+        "Cosmic Charge",
+        "Worldpiercer",
+        "Raging Storm"
+      ],
+      "count": 21,
+      "total_with_four_casts": 21
+    },
+    {
+      "mode": "LCM",
+      "phase": 3,
+      "sequence": [
+        "Greens",
+        "Echoing Blade",
+        "Slice Through Reality",
+        "Excision Extremis"
+      ],
+      "count": 15,
+      "total_with_four_casts": 16
+    }
+  ],
+  "coverage": {
+    "CM": 426,
+    "LCM": 45,
+    "NM_excluded": 38,
+    "date_range": "16 September–18 October 2026"
+  }
+}
