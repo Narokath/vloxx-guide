@@ -7,7 +7,6 @@ for(const {p,role,label} of original){if(cards){p.hidden=false;p.setAttribute('r
 if(!cards)document.querySelectorAll('.mechanic-menu').forEach(m=>m.querySelector('[aria-selected="true"]')?.click());}
 button.onclick=()=>apply(document.body.dataset.reading!=='cards');
 document.addEventListener('click',e=>{if(document.body.dataset.reading==='cards'&&e.target.closest?.('[data-mechanic]'))e.stopImmediatePropagation();},true);
-for(const panel of panels){const description=panel.querySelector('.mechanic-description');if(description){const tag=document.createElement('span');tag.className='field-evidence-tag';tag.textContent='Handling';description.prepend(tag);}}
 // Do not treat a collapsed shared-formation disclosure as an anchor destination.
 function revealGreens(){if(location.hash==='#greens'&&overview)overview.parentElement.open=true;}
 addEventListener('hashchange',revealGreens);apply(true);revealGreens();})();

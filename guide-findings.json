@@ -514,5 +514,430 @@
     "LCM": 45,
     "NM_excluded": 38,
     "date_range": "16 September–18 October 2026"
+  },
+  "movement_geometry": {
+    "method": "All 471 CM/LCM indexed logs. Orb/Teleport: adjacent boss position samples <=650ms apart, >=700 units jump, within10s after cast. Charge: greatest direct displacement among positions in next10s, at least5samples. This charge window may include other movement. P4: actual facing updates after Final Form channel start, one aggregate per recording. Distances have sample uncertainty; not targeting or internal-AI proofs.",
+    "summary": [
+      {
+        "mode": "CM",
+        "skill": 80323,
+        "observations": 1192,
+        "recordings": 415,
+        "median_distance": 1500.0,
+        "near1500": 1034,
+        "near1400": 0,
+        "near2000": 2,
+        "near1000": 51
+      },
+      {
+        "mode": "CM",
+        "skill": 80585,
+        "observations": 293,
+        "recordings": 145,
+        "median_distance": 2000.0,
+        "near1500": 0,
+        "near1400": 0,
+        "near2000": 282,
+        "near1000": 9
+      },
+      {
+        "mode": "LCM",
+        "skill": 80323,
+        "observations": 102,
+        "recordings": 43,
+        "median_distance": 1500.0,
+        "near1500": 102,
+        "near1400": 0,
+        "near2000": 0,
+        "near1000": 0
+      },
+      {
+        "mode": "LCM",
+        "skill": 80585,
+        "observations": 33,
+        "recordings": 16,
+        "median_distance": 2000.0,
+        "near1500": 0,
+        "near1400": 0,
+        "near2000": 33,
+        "near1000": 0
+      }
+    ],
+    "not_established": [
+      "Exact Charge distance from this position-window method",
+      "Fixed P4 facing from post-channel facing updates (none available)"
+    ]
+  },
+  "p2_spears": {
+    "summary": [
+      {
+        "mode": "CM",
+        "phase": 2,
+        "descending_projectiles": 9137,
+        "recordings": 256,
+        "relaunches": 1548,
+        "median_height": 2000,
+        "median_horizontal_offset": 1000.0,
+        "near_ground_removals": 1080,
+        "median_ground_flight_s": 2.518
+      },
+      {
+        "mode": "LCM",
+        "phase": 2,
+        "descending_projectiles": 841,
+        "recordings": 21,
+        "relaunches": 10,
+        "median_height": 2000,
+        "median_horizontal_offset": 1000.0,
+        "near_ground_removals": 67,
+        "median_ground_flight_s": 2.518
+      }
+    ],
+    "complete_casts": {
+      "CM": 421,
+      "LCM": 40
+    },
+    "four_by_five_patterns": 461,
+    "median_chain_gap_s": 3.0,
+    "full_pattern_gap_range_s": [
+      2.972,
+      3.032
+    ],
+    "scope": "471 CM/LCM recordings. Complete patterns require22s followup and20 descending launches. Counts are aggregate; no player-level events included."
+  },
+  "p4_spears": {
+    "summary": [
+      {
+        "mode": "CM",
+        "recordings": 92,
+        "projectiles": 5548,
+        "relaunches": 332,
+        "wave_intervals": 1369,
+        "median_wave_gap_s": 3.0,
+        "near3s_intervals": 1369,
+        "wave_sizes": {
+          "3": 658,
+          "6": 350,
+          "5": 126,
+          "2": 223,
+          "4": 98,
+          "1": 6
+        },
+        "first8_patterns": [
+          {
+            "counts": [
+              3,
+              3,
+              3,
+              3,
+              6,
+              6,
+              3,
+              3
+            ],
+            "recordings": 61
+          },
+          {
+            "counts": [
+              2,
+              2,
+              2,
+              2,
+              4,
+              4,
+              2,
+              2
+            ],
+            "recordings": 10
+          },
+          {
+            "counts": [
+              2,
+              2,
+              2,
+              2,
+              5,
+              5,
+              3,
+              3
+            ],
+            "recordings": 9
+          },
+          {
+            "counts": [
+              3,
+              3,
+              3,
+              3,
+              5,
+              5,
+              2,
+              2
+            ],
+            "recordings": 9
+          }
+        ],
+        "ground_arrivals": 2342,
+        "median_ground_flight_s": 2.52
+      },
+      {
+        "mode": "LCM",
+        "recordings": 8,
+        "projectiles": 583,
+        "relaunches": 0,
+        "wave_intervals": 152,
+        "median_wave_gap_s": 3.0,
+        "near3s_intervals": 152,
+        "wave_sizes": {
+          "2": 38,
+          "4": 19,
+          "5": 14,
+          "3": 56,
+          "6": 32,
+          "1": 1
+        },
+        "first8_patterns": [
+          {
+            "counts": [
+              2,
+              2,
+              2,
+              2,
+              4,
+              4,
+              2,
+              2
+            ],
+            "recordings": 4
+          },
+          {
+            "counts": [
+              3,
+              3,
+              3,
+              3,
+              6,
+              6,
+              3,
+              3
+            ],
+            "recordings": 3
+          },
+          {
+            "counts": [
+              2,
+              2,
+              2,
+              2,
+              5,
+              5,
+              3,
+              3
+            ],
+            "recordings": 1
+          }
+        ],
+        "ground_arrivals": 519,
+        "median_ground_flight_s": 2.522
+      }
+    ],
+    "scope": "Actual descending81176 missiles after Final Form channel. Waves grouped within100ms; relaunch alone is not a general block/destroy detector."
+  },
+  "shared_warning_rounds": {
+    "method": "Vloxx-sourced warning effects, per-log GUIDs, marks grouped within1s; first mark defines round. P4 starts at Final Form channel81071. Earlier phases useHP bands. Missing target marks can shift warning timing or leave a missed round.",
+    "summary": [
+      {
+        "mode": "CM",
+        "name": "Greens",
+        "phase": 1,
+        "rounds": 1070,
+        "recordings": 423,
+        "intervals": 646,
+        "minimum_gap_s": 44.432,
+        "median_gap_s": 47.076,
+        "maximum_gap_s": 142.352,
+        "first_round_median_channel_offset_s": null
+      },
+      {
+        "mode": "CM",
+        "name": "Greens",
+        "phase": 2,
+        "rounds": 577,
+        "recordings": 276,
+        "intervals": 301,
+        "minimum_gap_s": 44.438,
+        "median_gap_s": 51.436,
+        "maximum_gap_s": 63.482,
+        "first_round_median_channel_offset_s": null
+      },
+      {
+        "mode": "CM",
+        "name": "Greens",
+        "phase": 3,
+        "rounds": 431,
+        "recordings": 145,
+        "intervals": 286,
+        "minimum_gap_s": 44.443,
+        "median_gap_s": 47.426,
+        "maximum_gap_s": 60.952,
+        "first_round_median_channel_offset_s": null
+      },
+      {
+        "mode": "CM",
+        "name": "Greens",
+        "phase": 4,
+        "rounds": 216,
+        "recordings": 92,
+        "intervals": 124,
+        "minimum_gap_s": 29.914,
+        "median_gap_s": 30.002,
+        "maximum_gap_s": 60.082,
+        "first_round_median_channel_offset_s": 2.998
+      },
+      {
+        "mode": "CM",
+        "name": "Puddles",
+        "phase": 1,
+        "rounds": 852,
+        "recordings": 412,
+        "intervals": 440,
+        "minimum_gap_s": 32.036,
+        "median_gap_s": 44.401,
+        "maximum_gap_s": 54.28,
+        "first_round_median_channel_offset_s": null
+      },
+      {
+        "mode": "CM",
+        "name": "Puddles",
+        "phase": 2,
+        "rounds": 418,
+        "recordings": 235,
+        "intervals": 183,
+        "minimum_gap_s": 32.398,
+        "median_gap_s": 48.84,
+        "maximum_gap_s": 53.518,
+        "first_round_median_channel_offset_s": null
+      },
+      {
+        "mode": "CM",
+        "name": "Puddles",
+        "phase": 3,
+        "rounds": 394,
+        "recordings": 138,
+        "intervals": 256,
+        "minimum_gap_s": 32.08,
+        "median_gap_s": 42.005,
+        "maximum_gap_s": 68.236,
+        "first_round_median_channel_offset_s": null
+      },
+      {
+        "mode": "CM",
+        "name": "Puddles",
+        "phase": 4,
+        "rounds": 218,
+        "recordings": 92,
+        "intervals": 126,
+        "minimum_gap_s": 19.99,
+        "median_gap_s": 20.0,
+        "maximum_gap_s": 20.014,
+        "first_round_median_channel_offset_s": 22.998
+      },
+      {
+        "mode": "LCM",
+        "name": "Greens",
+        "phase": 1,
+        "rounds": 108,
+        "recordings": 45,
+        "intervals": 63,
+        "minimum_gap_s": 44.44,
+        "median_gap_s": 47.004,
+        "maximum_gap_s": 48.37,
+        "first_round_median_channel_offset_s": null
+      },
+      {
+        "mode": "LCM",
+        "name": "Greens",
+        "phase": 2,
+        "rounds": 61,
+        "recordings": 24,
+        "intervals": 37,
+        "minimum_gap_s": 44.442,
+        "median_gap_s": 54.61,
+        "maximum_gap_s": 60.676,
+        "first_round_median_channel_offset_s": null
+      },
+      {
+        "mode": "LCM",
+        "name": "Greens",
+        "phase": 3,
+        "rounds": 55,
+        "recordings": 16,
+        "intervals": 39,
+        "minimum_gap_s": 44.556,
+        "median_gap_s": 47.32,
+        "maximum_gap_s": 51.046,
+        "first_round_median_channel_offset_s": null
+      },
+      {
+        "mode": "LCM",
+        "name": "Greens",
+        "phase": 4,
+        "rounds": 24,
+        "recordings": 8,
+        "intervals": 16,
+        "minimum_gap_s": 29.918,
+        "median_gap_s": 30.002,
+        "maximum_gap_s": 30.09,
+        "first_round_median_channel_offset_s": 3.0
+      },
+      {
+        "mode": "LCM",
+        "name": "Puddles",
+        "phase": 1,
+        "rounds": 97,
+        "recordings": 43,
+        "intervals": 54,
+        "minimum_gap_s": 43.72,
+        "median_gap_s": 44.703,
+        "maximum_gap_s": 54.16,
+        "first_round_median_channel_offset_s": null
+      },
+      {
+        "mode": "LCM",
+        "name": "Puddles",
+        "phase": 2,
+        "rounds": 39,
+        "recordings": 21,
+        "intervals": 18,
+        "minimum_gap_s": 48.124,
+        "median_gap_s": 49.021,
+        "maximum_gap_s": 50.848,
+        "first_round_median_channel_offset_s": null
+      },
+      {
+        "mode": "LCM",
+        "name": "Puddles",
+        "phase": 3,
+        "rounds": 45,
+        "recordings": 16,
+        "intervals": 29,
+        "minimum_gap_s": 40.122,
+        "median_gap_s": 41.4,
+        "maximum_gap_s": 57.208,
+        "first_round_median_channel_offset_s": null
+      },
+      {
+        "mode": "LCM",
+        "name": "Puddles",
+        "phase": 4,
+        "rounds": 24,
+        "recordings": 8,
+        "intervals": 16,
+        "minimum_gap_s": 19.986,
+        "median_gap_s": 20.0,
+        "maximum_gap_s": 20.012,
+        "first_round_median_channel_offset_s": 23.001
+      }
+    ]
   }
 }
