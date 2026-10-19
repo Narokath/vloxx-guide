@@ -9,4 +9,4 @@ button.onclick=()=>apply(document.body.dataset.reading!=='cards');
 document.addEventListener('click',e=>{if(document.body.dataset.reading==='cards'&&e.target.closest?.('[data-mechanic]'))e.stopImmediatePropagation();},true);
 // Do not treat a collapsed shared-formation disclosure as an anchor destination.
 function revealGreens(){if(location.hash==='#greens'&&overview)overview.parentElement.open=true;}
-addEventListener('hashchange',revealGreens);apply(true);revealGreens();})();
+addEventListener('hashchange',revealGreens);apply(false);revealGreens();})();

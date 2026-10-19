@@ -15,11 +15,11 @@ class Inspect(HTMLParser):
    assert self.stack[-1][0]==t,(t,self.stack[-1][0])
    self.stack.pop()
 p=Inspect();p.feed(Path('Vloxx_Guide.html').read_text(encoding='utf8'));assert not p.stack
-assert len(p.tabs)==len(p.panels)==23
+assert len(p.tabs)==len(p.panels)==24
 for tab in p.tabs:
  panel=p.ids[tab['data-mechanic']];assert panel['aria-labelledby']==tab['id'];assert ('hidden' in panel)==(tab['aria-selected']=='false')
 for name in ['excision-frame','p4-frame']:
  assert any('advanced-section' in d.get('class','').split() for d in p.frames[name])
 assert any('mode-cm' in d.get('class','').split() for d in p.frames['p4-frame'])
 assert 'echo-play' in p.ids and 'green-image' in p.ids
-print('PASS: balanced HTML; 23 mechanic tabs/panels linked; simulations in advanced sections; crossover CM-only; green and playback controls preserved.')
+print('PASS: balanced HTML; 24 mechanic tabs/panels linked; simulations in advanced sections; crossover CM-only; green and playback controls preserved.')

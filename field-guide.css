@@ -11,3 +11,19 @@ body{background-image:none;font-size:17px;line-height:1.65}.wrap{max-width:1190p
 .combined-diagram-actions{display:flex;align-items:center;gap:10px;flex-wrap:wrap}.combined-diagram-actions button{margin:0}
 
 .phase-coverage,.timing-reference{display:block;font-size:11px;color:var(--muted);margin-top:4px}.field-timing td[rowspan]{vertical-align:middle}.mechanic-cd .p4-repeat{display:block;margin-top:4px}
+
+.resource-rules-body{padding-top:8px}.resource-rules-body h3{margin-top:26px}.resource-rules-body h4{margin-top:22px}.resource-rules-body td small{display:block;color:var(--muted,#a8aaaf);font-size:.85em;margin-top:4px}.resource-list li{margin:10px 0}.resource-rules-body .tablebox{margin:18px 0}
+
+/* Slightly stronger icon outlines; keep the original thin/thick hierarchy. */
+.mechanic-icon [stroke-width="2"]{stroke-width:3.5}.mechanic-icon [stroke-width="3"]{stroke-width:4.5}
+.field-opening p{align-items:center;column-gap:10px;row-gap:12px}.field-opening .opening-next{display:block;width:24px;height:24px;flex:0 0 24px;color:var(--gold)}
+
+.mechanic-panel.resource-panel{grid-template-columns:minmax(0,1fr);min-height:0}.fixate-icon{object-fit:contain}
+
+.split-grid>[id]{scroll-margin-top:100px}
+
+.progression-track{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));list-style:none;padding:0;margin:28px 0;gap:0}.progression-track li{display:flex;flex-direction:column;align-items:center;text-align:center;gap:7px;padding:18px 8px 12px;border-top:3px solid var(--gold);min-width:0}.progression-track .progression-split{border-top:3px dashed #697080}.progression-track .mechanic-icon{width:36px;height:36px;flex-basis:36px;margin-bottom:4px}.progression-label{font-size:12px;text-transform:uppercase;letter-spacing:.6px;color:var(--muted)}.progression-track strong{font-size:16px;line-height:1.4}.progression-hp{font-size:13px;color:var(--muted)}.progression-opening{display:flex;align-items:center;flex-wrap:wrap;gap:8px;min-width:320px}.progression-mechanic{display:inline-flex;align-items:center;gap:6px;font-size:14px}.progression-opening .mechanic-icon{width:26px;height:26px;flex-basis:26px}.progression-opening .opening-next{width:20px;height:20px;flex:0 0 20px;color:var(--gold)}#progression td{vertical-align:middle}#progression td small,.split-duration small{display:block;font-size:12px;color:var(--muted);margin-top:4px}.progression-caption{font-size:14px;color:var(--muted)}.split-duration{border-top:1px solid var(--line);padding-top:12px;margin-top:16px}.split-duration strong{font-size:16px}@media(max-width:800px){.progression-track{grid-template-columns:repeat(7,135px);overflow-x:auto;padding-bottom:12px}.progression-track li{padding-inline:6px}}
+
+.assignment-body{padding-top:10px}.assignment-body .tablebox{margin:18px 0}.assignment-body th,.assignment-body td{vertical-align:top}.assignment-body td:first-child{min-width:125px}.assignment-body td{font-size:15px;line-height:1.65}.assignment-body p{max-width:100ch}
+
+.progression-total td{border-top:2px solid var(--gold);background:#e8c97608}

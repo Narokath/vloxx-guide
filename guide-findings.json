@@ -939,5 +939,1256 @@
         "first_round_median_channel_offset_s": 23.001
       }
     ]
+  },
+  "ascension_fixate": {
+    "method": "Full collection through 2026-10-19; 456 CM + 45 LCM. Aggregate-only findings. Local scripts audit_ascension_fixate.py, refine_ascension_audit.py, audit_ascension_exchange.py and audit_ascension_death.py retain private episode evidence outside the repository.",
+    "summary": {
+      "CM": {
+        "recordings": 456,
+        "fixate": {
+          "applications": 1862,
+          "applied_durations_ms": {
+            "60000": 1862
+          },
+          "completed": 1283,
+          "natural_duration_s": {
+            "n": 1283,
+            "min": 59.98,
+            "p10": 59.994,
+            "median": 60.0,
+            "p90": 60.006,
+            "max": 60.02
+          },
+          "reassignment_after_expiry_s": {
+            "n": 1227,
+            "min": 0.202,
+            "p10": 5.0,
+            "median": 8.314,
+            "p90": 26.326,
+            "max": 61.286
+          },
+          "reassignment_same_phase_s": {
+            "n": 830,
+            "min": 0.202,
+            "median": 7.884,
+            "max": 40.002
+          },
+          "early_ends": 552,
+          "early_near_down_death": 519,
+          "early_near_stealth": 0
+        },
+        "ordinary": {
+          "episodes": 67732,
+          "quantity_eligible": 67732,
+          "quantity_fit": 67729,
+          "selection_eligible": 66900,
+          "newest_n_fit": 66878
+        },
+        "loss_families": [
+          {
+            "family": "Greens",
+            "episodes": 889,
+            "surviving_episodes": 647,
+            "surviving_stack_losses": {
+              "3": 647
+            }
+          },
+          {
+            "family": "Shackles",
+            "episodes": 230,
+            "surviving_episodes": 205,
+            "surviving_stack_losses": {
+              "1": 205
+            }
+          },
+          {
+            "family": "Teleport",
+            "episodes": 192,
+            "surviving_episodes": 169,
+            "surviving_stack_losses": {
+              "1": 169
+            }
+          },
+          {
+            "family": "Unresolved",
+            "episodes": 117,
+            "surviving_episodes": 0,
+            "surviving_stack_losses": {}
+          }
+        ],
+        "strips": [
+          {
+            "skill": 0,
+            "episodes": 6377,
+            "quantity_eligible": 6375,
+            "quantity_fit": 4546,
+            "selection_eligible": 6332,
+            "newest_n_fit": 1596,
+            "minimum_non_stability_repeat_s": 0.014
+          },
+          {
+            "skill": 80323,
+            "episodes": 6935,
+            "quantity_eligible": 6933,
+            "quantity_fit": 6804,
+            "selection_eligible": 6916,
+            "newest_n_fit": 6792,
+            "minimum_non_stability_repeat_s": 1.192
+          },
+          {
+            "skill": 80378,
+            "episodes": 90,
+            "quantity_eligible": 90,
+            "quantity_fit": 35,
+            "selection_eligible": 89,
+            "newest_n_fit": 63,
+            "minimum_non_stability_repeat_s": 29.84
+          },
+          {
+            "skill": 80420,
+            "episodes": 345,
+            "quantity_eligible": 345,
+            "quantity_fit": 328,
+            "selection_eligible": 345,
+            "newest_n_fit": 330,
+            "minimum_non_stability_repeat_s": 9.992
+          },
+          {
+            "skill": 80483,
+            "episodes": 5843,
+            "quantity_eligible": 5843,
+            "quantity_fit": 5843,
+            "selection_eligible": 5757,
+            "newest_n_fit": 5756,
+            "minimum_non_stability_repeat_s": 0.186
+          },
+          {
+            "skill": 80484,
+            "episodes": 7933,
+            "quantity_eligible": 7933,
+            "quantity_fit": 7933,
+            "selection_eligible": 7903,
+            "newest_n_fit": 7903,
+            "minimum_non_stability_repeat_s": 1.026
+          },
+          {
+            "skill": 80512,
+            "episodes": 11120,
+            "quantity_eligible": 11120,
+            "quantity_fit": 11086,
+            "selection_eligible": 11084,
+            "newest_n_fit": 11038,
+            "minimum_non_stability_repeat_s": 0.926
+          },
+          {
+            "skill": 80555,
+            "episodes": 16,
+            "quantity_eligible": 16,
+            "quantity_fit": 16,
+            "selection_eligible": 16,
+            "newest_n_fit": 3,
+            "minimum_non_stability_repeat_s": null
+          },
+          {
+            "skill": 80585,
+            "episodes": 142,
+            "quantity_eligible": 142,
+            "quantity_fit": 12,
+            "selection_eligible": 8,
+            "newest_n_fit": 1,
+            "minimum_non_stability_repeat_s": 0.01
+          },
+          {
+            "skill": 80591,
+            "episodes": 162,
+            "quantity_eligible": 162,
+            "quantity_fit": 154,
+            "selection_eligible": 162,
+            "newest_n_fit": 157,
+            "minimum_non_stability_repeat_s": 9.992
+          },
+          {
+            "skill": 80629,
+            "episodes": 508,
+            "quantity_eligible": 506,
+            "quantity_fit": 297,
+            "selection_eligible": 459,
+            "newest_n_fit": 378,
+            "minimum_non_stability_repeat_s": 0.058
+          },
+          {
+            "skill": 80717,
+            "episodes": 24,
+            "quantity_eligible": 24,
+            "quantity_fit": 24,
+            "selection_eligible": 24,
+            "newest_n_fit": 2,
+            "minimum_non_stability_repeat_s": null
+          },
+          {
+            "skill": 80732,
+            "episodes": 11,
+            "quantity_eligible": 11,
+            "quantity_fit": 11,
+            "selection_eligible": 11,
+            "newest_n_fit": 2,
+            "minimum_non_stability_repeat_s": null
+          },
+          {
+            "skill": 80809,
+            "episodes": 170,
+            "quantity_eligible": 170,
+            "quantity_fit": 140,
+            "selection_eligible": 168,
+            "newest_n_fit": 158,
+            "minimum_non_stability_repeat_s": 48.928
+          },
+          {
+            "skill": 80810,
+            "episodes": 979,
+            "quantity_eligible": 979,
+            "quantity_fit": 945,
+            "selection_eligible": 976,
+            "newest_n_fit": 939,
+            "minimum_non_stability_repeat_s": 0.152
+          },
+          {
+            "skill": 80901,
+            "episodes": 847,
+            "quantity_eligible": 847,
+            "quantity_fit": 847,
+            "selection_eligible": 842,
+            "newest_n_fit": 842,
+            "minimum_non_stability_repeat_s": 1.028
+          },
+          {
+            "skill": 80965,
+            "episodes": 245,
+            "quantity_eligible": 245,
+            "quantity_fit": 237,
+            "selection_eligible": 245,
+            "newest_n_fit": 20,
+            "minimum_non_stability_repeat_s": null
+          },
+          {
+            "skill": 81015,
+            "episodes": 9,
+            "quantity_eligible": 9,
+            "quantity_fit": 9,
+            "selection_eligible": 9,
+            "newest_n_fit": 0,
+            "minimum_non_stability_repeat_s": null
+          },
+          {
+            "skill": 81017,
+            "episodes": 596,
+            "quantity_eligible": 596,
+            "quantity_fit": 571,
+            "selection_eligible": 593,
+            "newest_n_fit": 576,
+            "minimum_non_stability_repeat_s": 9.992
+          },
+          {
+            "skill": 81053,
+            "episodes": 7376,
+            "quantity_eligible": 7376,
+            "quantity_fit": 7376,
+            "selection_eligible": 7297,
+            "newest_n_fit": 7297,
+            "minimum_non_stability_repeat_s": 1.022
+          },
+          {
+            "skill": 81076,
+            "episodes": 191,
+            "quantity_eligible": 191,
+            "quantity_fit": 190,
+            "selection_eligible": 186,
+            "newest_n_fit": 182,
+            "minimum_non_stability_repeat_s": 0.67
+          },
+          {
+            "skill": 81176,
+            "episodes": 510,
+            "quantity_eligible": 509,
+            "quantity_fit": 365,
+            "selection_eligible": 497,
+            "newest_n_fit": 488,
+            "minimum_non_stability_repeat_s": 0.038
+          },
+          {
+            "skill": 81209,
+            "episodes": 41,
+            "quantity_eligible": 41,
+            "quantity_fit": 41,
+            "selection_eligible": 41,
+            "newest_n_fit": 6,
+            "minimum_non_stability_repeat_s": null
+          },
+          {
+            "skill": 81238,
+            "episodes": 79,
+            "quantity_eligible": 79,
+            "quantity_fit": 75,
+            "selection_eligible": 79,
+            "newest_n_fit": 9,
+            "minimum_non_stability_repeat_s": null
+          },
+          {
+            "skill": 81271,
+            "episodes": 19350,
+            "quantity_eligible": 19350,
+            "quantity_fit": 19350,
+            "selection_eligible": 19013,
+            "newest_n_fit": 19007,
+            "minimum_non_stability_repeat_s": 0.546
+          },
+          {
+            "skill": 81273,
+            "episodes": 12,
+            "quantity_eligible": 12,
+            "quantity_fit": 11,
+            "selection_eligible": 12,
+            "newest_n_fit": 1,
+            "minimum_non_stability_repeat_s": null
+          },
+          {
+            "skill": 81318,
+            "episodes": 45,
+            "quantity_eligible": 45,
+            "quantity_fit": 39,
+            "selection_eligible": 45,
+            "newest_n_fit": 42,
+            "minimum_non_stability_repeat_s": null
+          },
+          {
+            "skill": 81326,
+            "episodes": 4858,
+            "quantity_eligible": 4858,
+            "quantity_fit": 4858,
+            "selection_eligible": 4840,
+            "newest_n_fit": 4837,
+            "minimum_non_stability_repeat_s": 1.026
+          },
+          {
+            "skill": 81330,
+            "episodes": 21525,
+            "quantity_eligible": 21525,
+            "quantity_fit": 21522,
+            "selection_eligible": 21248,
+            "newest_n_fit": 21236,
+            "minimum_non_stability_repeat_s": 0.16
+          }
+        ],
+        "marker_durations": [
+          {
+            "skill": 80304,
+            "durations_ms": {
+              "200": 1468
+            }
+          },
+          {
+            "skill": 80323,
+            "durations_ms": {
+              "1000": 582
+            }
+          },
+          {
+            "skill": 80484,
+            "durations_ms": {
+              "1000": 559,
+              "200": 2
+            }
+          },
+          {
+            "skill": 80512,
+            "durations_ms": {
+              "500": 1090
+            }
+          },
+          {
+            "skill": 80547,
+            "durations_ms": {
+              "800": 111
+            }
+          },
+          {
+            "skill": 80717,
+            "durations_ms": {
+              "1000": 61
+            }
+          },
+          {
+            "skill": 80726,
+            "durations_ms": {
+              "800": 104
+            }
+          },
+          {
+            "skill": 80809,
+            "durations_ms": {
+              "500": 4
+            }
+          },
+          {
+            "skill": 80810,
+            "durations_ms": {
+              "500": 2
+            }
+          },
+          {
+            "skill": 80871,
+            "durations_ms": {
+              "1000": 562
+            }
+          },
+          {
+            "skill": 80901,
+            "durations_ms": {
+              "1000": 246
+            }
+          },
+          {
+            "skill": 81015,
+            "durations_ms": {
+              "1000": 1
+            }
+          },
+          {
+            "skill": 81053,
+            "durations_ms": {
+              "1000": 1490
+            }
+          },
+          {
+            "skill": 81176,
+            "durations_ms": {
+              "1000": 12
+            }
+          },
+          {
+            "skill": 81209,
+            "durations_ms": {
+              "200": 4622,
+              "1000": 18
+            }
+          },
+          {
+            "skill": 81230,
+            "durations_ms": {
+              "200": 16
+            }
+          },
+          {
+            "skill": 81238,
+            "durations_ms": {
+              "2000": 398
+            }
+          },
+          {
+            "skill": 81271,
+            "durations_ms": {
+              "500": 1518
+            }
+          },
+          {
+            "skill": 81326,
+            "durations_ms": {
+              "1000": 758
+            }
+          },
+          {
+            "skill": 81330,
+            "durations_ms": {
+              "1000": 2
+            }
+          }
+        ]
+      },
+      "LCM": {
+        "recordings": 45,
+        "fixate": {
+          "applications": 178,
+          "applied_durations_ms": {
+            "60000": 178
+          },
+          "completed": 125,
+          "natural_duration_s": {
+            "n": 125,
+            "min": 59.986,
+            "p10": 59.994,
+            "median": 60.002,
+            "p90": 60.006,
+            "max": 60.012
+          },
+          "reassignment_after_expiry_s": {
+            "n": 121,
+            "min": 0.67,
+            "p10": 5.598,
+            "median": 8.328,
+            "p90": 41.488,
+            "max": 57.244
+          },
+          "reassignment_same_phase_s": {
+            "n": 89,
+            "min": 0.67,
+            "median": 7.884,
+            "max": 47.642
+          },
+          "early_ends": 51,
+          "early_near_down_death": 47,
+          "early_near_stealth": 0
+        },
+        "ordinary": {
+          "episodes": 8223,
+          "quantity_eligible": 8223,
+          "quantity_fit": 8221,
+          "selection_eligible": 8151,
+          "newest_n_fit": 8150
+        },
+        "loss_families": [
+          {
+            "family": "Greens",
+            "episodes": 84,
+            "surviving_episodes": 59,
+            "surviving_stack_losses": {
+              "3": 59
+            }
+          },
+          {
+            "family": "Shackles",
+            "episodes": 8,
+            "surviving_episodes": 8,
+            "surviving_stack_losses": {
+              "1": 8
+            }
+          },
+          {
+            "family": "Teleport",
+            "episodes": 14,
+            "surviving_episodes": 11,
+            "surviving_stack_losses": {
+              "1": 11
+            }
+          },
+          {
+            "family": "Unresolved",
+            "episodes": 2,
+            "surviving_episodes": 0,
+            "surviving_stack_losses": {}
+          }
+        ],
+        "strips": [
+          {
+            "skill": 0,
+            "episodes": 687,
+            "quantity_eligible": 687,
+            "quantity_fit": 364,
+            "selection_eligible": 680,
+            "newest_n_fit": 163,
+            "minimum_non_stability_repeat_s": 0.522
+          },
+          {
+            "skill": 80323,
+            "episodes": 555,
+            "quantity_eligible": 554,
+            "quantity_fit": 543,
+            "selection_eligible": 553,
+            "newest_n_fit": 543,
+            "minimum_non_stability_repeat_s": 1.194
+          },
+          {
+            "skill": 80378,
+            "episodes": 7,
+            "quantity_eligible": 7,
+            "quantity_fit": 3,
+            "selection_eligible": 7,
+            "newest_n_fit": 5,
+            "minimum_non_stability_repeat_s": null
+          },
+          {
+            "skill": 80420,
+            "episodes": 57,
+            "quantity_eligible": 57,
+            "quantity_fit": 56,
+            "selection_eligible": 57,
+            "newest_n_fit": 56,
+            "minimum_non_stability_repeat_s": 10.0
+          },
+          {
+            "skill": 80483,
+            "episodes": 398,
+            "quantity_eligible": 398,
+            "quantity_fit": 398,
+            "selection_eligible": 390,
+            "newest_n_fit": 390,
+            "minimum_non_stability_repeat_s": 0.194
+          },
+          {
+            "skill": 80484,
+            "episodes": 915,
+            "quantity_eligible": 915,
+            "quantity_fit": 915,
+            "selection_eligible": 915,
+            "newest_n_fit": 915,
+            "minimum_non_stability_repeat_s": 1.026
+          },
+          {
+            "skill": 80512,
+            "episodes": 1151,
+            "quantity_eligible": 1151,
+            "quantity_fit": 1147,
+            "selection_eligible": 1151,
+            "newest_n_fit": 1149,
+            "minimum_non_stability_repeat_s": 0.944
+          },
+          {
+            "skill": 80585,
+            "episodes": 8,
+            "quantity_eligible": 8,
+            "quantity_fit": 0,
+            "selection_eligible": 0,
+            "newest_n_fit": 0,
+            "minimum_non_stability_repeat_s": null
+          },
+          {
+            "skill": 80591,
+            "episodes": 8,
+            "quantity_eligible": 8,
+            "quantity_fit": 8,
+            "selection_eligible": 8,
+            "newest_n_fit": 8,
+            "minimum_non_stability_repeat_s": null
+          },
+          {
+            "skill": 80629,
+            "episodes": 49,
+            "quantity_eligible": 49,
+            "quantity_fit": 25,
+            "selection_eligible": 43,
+            "newest_n_fit": 28,
+            "minimum_non_stability_repeat_s": 0.07
+          },
+          {
+            "skill": 80717,
+            "episodes": 2,
+            "quantity_eligible": 2,
+            "quantity_fit": 2,
+            "selection_eligible": 2,
+            "newest_n_fit": 0,
+            "minimum_non_stability_repeat_s": null
+          },
+          {
+            "skill": 80809,
+            "episodes": 15,
+            "quantity_eligible": 15,
+            "quantity_fit": 13,
+            "selection_eligible": 15,
+            "newest_n_fit": 15,
+            "minimum_non_stability_repeat_s": 179.03
+          },
+          {
+            "skill": 80810,
+            "episodes": 39,
+            "quantity_eligible": 39,
+            "quantity_fit": 38,
+            "selection_eligible": 39,
+            "newest_n_fit": 38,
+            "minimum_non_stability_repeat_s": 1.002
+          },
+          {
+            "skill": 80901,
+            "episodes": 159,
+            "quantity_eligible": 159,
+            "quantity_fit": 159,
+            "selection_eligible": 157,
+            "newest_n_fit": 157,
+            "minimum_non_stability_repeat_s": 1.036
+          },
+          {
+            "skill": 80965,
+            "episodes": 33,
+            "quantity_eligible": 33,
+            "quantity_fit": 32,
+            "selection_eligible": 33,
+            "newest_n_fit": 6,
+            "minimum_non_stability_repeat_s": null
+          },
+          {
+            "skill": 81015,
+            "episodes": 1,
+            "quantity_eligible": 1,
+            "quantity_fit": 1,
+            "selection_eligible": 1,
+            "newest_n_fit": 0,
+            "minimum_non_stability_repeat_s": null
+          },
+          {
+            "skill": 81017,
+            "episodes": 27,
+            "quantity_eligible": 27,
+            "quantity_fit": 27,
+            "selection_eligible": 27,
+            "newest_n_fit": 27,
+            "minimum_non_stability_repeat_s": 9.996
+          },
+          {
+            "skill": 81053,
+            "episodes": 657,
+            "quantity_eligible": 657,
+            "quantity_fit": 657,
+            "selection_eligible": 647,
+            "newest_n_fit": 647,
+            "minimum_non_stability_repeat_s": 1.03
+          },
+          {
+            "skill": 81076,
+            "episodes": 7,
+            "quantity_eligible": 7,
+            "quantity_fit": 7,
+            "selection_eligible": 7,
+            "newest_n_fit": 7,
+            "minimum_non_stability_repeat_s": null
+          },
+          {
+            "skill": 81176,
+            "episodes": 71,
+            "quantity_eligible": 71,
+            "quantity_fit": 49,
+            "selection_eligible": 70,
+            "newest_n_fit": 69,
+            "minimum_non_stability_repeat_s": 2.992
+          },
+          {
+            "skill": 81209,
+            "episodes": 2,
+            "quantity_eligible": 2,
+            "quantity_fit": 2,
+            "selection_eligible": 2,
+            "newest_n_fit": 1,
+            "minimum_non_stability_repeat_s": null
+          },
+          {
+            "skill": 81238,
+            "episodes": 8,
+            "quantity_eligible": 8,
+            "quantity_fit": 7,
+            "selection_eligible": 8,
+            "newest_n_fit": 0,
+            "minimum_non_stability_repeat_s": null
+          },
+          {
+            "skill": 81271,
+            "episodes": 2833,
+            "quantity_eligible": 2833,
+            "quantity_fit": 2832,
+            "selection_eligible": 2798,
+            "newest_n_fit": 2798,
+            "minimum_non_stability_repeat_s": 0.536
+          },
+          {
+            "skill": 81273,
+            "episodes": 13,
+            "quantity_eligible": 13,
+            "quantity_fit": 13,
+            "selection_eligible": 13,
+            "newest_n_fit": 0,
+            "minimum_non_stability_repeat_s": null
+          },
+          {
+            "skill": 81318,
+            "episodes": 4,
+            "quantity_eligible": 4,
+            "quantity_fit": 4,
+            "selection_eligible": 4,
+            "newest_n_fit": 4,
+            "minimum_non_stability_repeat_s": null
+          },
+          {
+            "skill": 81326,
+            "episodes": 584,
+            "quantity_eligible": 584,
+            "quantity_fit": 584,
+            "selection_eligible": 583,
+            "newest_n_fit": 583,
+            "minimum_non_stability_repeat_s": 1.032
+          },
+          {
+            "skill": 81330,
+            "episodes": 2677,
+            "quantity_eligible": 2677,
+            "quantity_fit": 2676,
+            "selection_eligible": 2661,
+            "newest_n_fit": 2660,
+            "minimum_non_stability_repeat_s": 0.184
+          }
+        ],
+        "marker_durations": [
+          {
+            "skill": 80304,
+            "durations_ms": {
+              "200": 234
+            }
+          },
+          {
+            "skill": 80323,
+            "durations_ms": {
+              "1000": 27
+            }
+          },
+          {
+            "skill": 80484,
+            "durations_ms": {
+              "1000": 75
+            }
+          },
+          {
+            "skill": 80512,
+            "durations_ms": {
+              "500": 99
+            }
+          },
+          {
+            "skill": 80547,
+            "durations_ms": {
+              "800": 58
+            }
+          },
+          {
+            "skill": 80717,
+            "durations_ms": {
+              "1000": 7
+            }
+          },
+          {
+            "skill": 80809,
+            "durations_ms": {
+              "500": 1
+            }
+          },
+          {
+            "skill": 80810,
+            "durations_ms": {
+              "500": 2
+            }
+          },
+          {
+            "skill": 80871,
+            "durations_ms": {
+              "1000": 58
+            }
+          },
+          {
+            "skill": 80901,
+            "durations_ms": {
+              "1000": 42
+            }
+          },
+          {
+            "skill": 81053,
+            "durations_ms": {
+              "1000": 123
+            }
+          },
+          {
+            "skill": 81209,
+            "durations_ms": {
+              "200": 743,
+              "1000": 3
+            }
+          },
+          {
+            "skill": 81230,
+            "durations_ms": {
+              "200": 3
+            }
+          },
+          {
+            "skill": 81238,
+            "durations_ms": {
+              "2000": 38,
+              "1000": 1
+            }
+          },
+          {
+            "skill": 81271,
+            "durations_ms": {
+              "500": 193
+            }
+          },
+          {
+            "skill": 81326,
+            "durations_ms": {
+              "1000": 95
+            }
+          },
+          {
+            "skill": 81330,
+            "durations_ms": {
+              "1000": 2
+            }
+          }
+        ]
+      }
+    },
+    "death_and_orb_checks": {
+      "CM": {
+        "isolated_death_pairs": {
+          "(10, 10)": 1526,
+          "(9, 9)": 125,
+          "(7, 7)": 284,
+          "(10, 17)": 4,
+          "(10, 20)": 38,
+          "(10, 7)": 11,
+          "(10, 9)": 17,
+          "(7, 0)": 37,
+          "(8, 8)": 24,
+          "(10, 3)": 13,
+          "(10, 0)": 81,
+          "(9, 0)": 13,
+          "(9, 5)": 1,
+          "(10, 11)": 30,
+          "(9, 3)": 2,
+          "(4, 4)": 29,
+          "(7, 8)": 6,
+          "(7, 2)": 3,
+          "(9, 8)": 2,
+          "(4, 0)": 8,
+          "(10, 5)": 15,
+          "(10, 2)": 4,
+          "(10, 6)": 16,
+          "(1, 1)": 1,
+          "(5, 5)": 5,
+          "(10, 4)": 11,
+          "(7, 14)": 2,
+          "(10, 1)": 10,
+          "(10, 8)": 15,
+          "(7, 1)": 6,
+          "(6, 6)": 26,
+          "(10, 13)": 2,
+          "(4, 3)": 1,
+          "(7, 6)": 3,
+          "(9, 2)": 2,
+          "(9, 1)": 2,
+          "(9, 7)": 1,
+          "(3, 3)": 2,
+          "(7, 5)": 2,
+          "(3, 0)": 2,
+          "(10, 19)": 3,
+          "(4, 5)": 2,
+          "(7, 3)": 3,
+          "(2, 2)": 1,
+          "(8, 3)": 1,
+          "(6, 1)": 1,
+          "(10, 30)": 1,
+          "(9, 19)": 2,
+          "(8, 16)": 1,
+          "(10, 18)": 2,
+          "(8, 0)": 1,
+          "(4, 1)": 1,
+          "(7, 9)": 1,
+          "(10, 16)": 1,
+          "(7, 17)": 3,
+          "(7, 16)": 1,
+          "(8, 18)": 1
+        },
+        "orb_gain_pairs": {
+          "(True, 1)": 224,
+          "(True, 0)": 4,
+          "(False, 0)": 4
+        },
+        "gain_source_species": {
+          "8": 99,
+          "1": 6,
+          "7": 71,
+          "6": 28,
+          "9": 15,
+          "3": 12,
+          "5": 1
+        }
+      },
+      "LCM": {
+        "isolated_death_pairs": {
+          "(10, 10)": 161,
+          "(7, 7)": 21,
+          "(10, 11)": 2,
+          "(10, 6)": 1,
+          "(10, 20)": 3,
+          "(9, 9)": 6,
+          "(10, 9)": 3,
+          "(10, 0)": 10,
+          "(7, 0)": 8,
+          "(7, 17)": 2,
+          "(10, 7)": 1,
+          "(7, 4)": 1,
+          "(4, 0)": 1,
+          "(9, 2)": 1,
+          "(4, 4)": 4,
+          "(4, 2)": 1,
+          "(9, 0)": 1,
+          "(10, 5)": 1,
+          "(10, 8)": 1,
+          "(10, 19)": 1
+        },
+        "orb_gain_pairs": {
+          "(True, 0)": 3,
+          "(True, 1)": 6
+        },
+        "gain_source_species": {
+          "7": 2,
+          "6": 3,
+          "9": 1,
+          "8": 3
+        }
+      }
+    },
+    "geometry_refresh_check": {
+      "method": "POV positive clean Geometry hit; exactly one matched 1000ms marker; available boons; no inferred ordinary strip; previous same-source/same-skill hit 20–1000ms earlier. Counts are hit observations, not unique casts.",
+      "CM": {
+        "rapid_hits": 1148,
+        "more_than_1s_since_previous_same_attack_strip": 526
+      },
+      "LCM": {
+        "rapid_hits": 105,
+        "more_than_1s_since_previous_same_attack_strip": 25
+      }
+    },
+    "fixate_immunity_correction": "Same-phase reassignment subset recalculated using Damage Immunity 80608 in audit_fight_progression.py."
+  },
+  "fight_progression": {
+    "method": "All indexed CM/LCM. Start P1 at first Vloxx combat-entry event. Damage Immunity 80608 reconstructed by stack ID; complete >=4s intervals grouped by recorded boss HP to identify 70/40/10% splits. Phase intervals run from split-immunity removal to the next split application. P4 begins at Final Form animation 81071; channel end follows immunity removal. Split completion additionally requires a following next-phase major cast within20s, or the Final Form channel at10%. Only complete recorded intervals contribute durations, including completed phases in later wipes; not kill-only pacing. Openings count first four selected major boss cast starts outside Damage Immunity, not every damage component. Normal mode excluded.",
+    "summary": {
+      "CM": {
+        "recordings": 456,
+        "segments": [
+          {
+            "segment": "P1",
+            "completed_segments": 295,
+            "median_s": 109.0,
+            "minimum_s": 95.1,
+            "maximum_s": 173.2
+          },
+          {
+            "segment": "Split 70",
+            "completed_segments": 290,
+            "median_s": 24.4,
+            "minimum_s": 13.0,
+            "maximum_s": 46.0
+          },
+          {
+            "segment": "P2",
+            "completed_segments": 158,
+            "median_s": 114.5,
+            "minimum_s": 92.0,
+            "maximum_s": 162.1
+          },
+          {
+            "segment": "Split 40",
+            "completed_segments": 152,
+            "median_s": 30.8,
+            "minimum_s": 14.5,
+            "maximum_s": 58.7
+          },
+          {
+            "segment": "P3",
+            "completed_segments": 96,
+            "median_s": 131.1,
+            "minimum_s": 105.1,
+            "maximum_s": 224.3
+          },
+          {
+            "segment": "Split 10",
+            "completed_segments": 95,
+            "median_s": 26.5,
+            "minimum_s": 16.2,
+            "maximum_s": 51.2
+          },
+          {
+            "segment": "Final Form channel",
+            "completed_segments": 95,
+            "median_s": 15.0,
+            "minimum_s": 15.0,
+            "maximum_s": 15.0
+          },
+          {
+            "segment": "P4 including channel",
+            "completed_segments": 46,
+            "median_s": 56.5,
+            "minimum_s": 44.1,
+            "maximum_s": 118.7
+          }
+        ],
+        "openings": [
+          {
+            "phase": 1,
+            "sequence": [
+              "Greens",
+              "Curse",
+              "Orb",
+              "Puddles"
+            ],
+            "count": 442,
+            "total_with_four_casts": 443
+          },
+          {
+            "phase": 2,
+            "sequence": [
+              "Greens",
+              "Charge",
+              "Red lines",
+              "Spears"
+            ],
+            "count": 183,
+            "total_with_four_casts": 278
+          },
+          {
+            "phase": 3,
+            "sequence": [
+              "Greens",
+              "Red Blades",
+              "Teleport",
+              "Geometry"
+            ],
+            "count": 139,
+            "total_with_four_casts": 152
+          }
+        ]
+      },
+      "LCM": {
+        "recordings": 45,
+        "segments": [
+          {
+            "segment": "P1",
+            "completed_segments": 24,
+            "median_s": 123.9,
+            "minimum_s": 116.6,
+            "maximum_s": 132.0
+          },
+          {
+            "segment": "Split 70",
+            "completed_segments": 24,
+            "median_s": 31.6,
+            "minimum_s": 20.2,
+            "maximum_s": 48.4
+          },
+          {
+            "segment": "P2",
+            "completed_segments": 16,
+            "median_s": 126.8,
+            "minimum_s": 117.8,
+            "maximum_s": 135.0
+          },
+          {
+            "segment": "Split 40",
+            "completed_segments": 16,
+            "median_s": 39.9,
+            "minimum_s": 27.1,
+            "maximum_s": 52.8
+          },
+          {
+            "segment": "P3",
+            "completed_segments": 8,
+            "median_s": 152.7,
+            "minimum_s": 139.6,
+            "maximum_s": 188.4
+          },
+          {
+            "segment": "Split 10",
+            "completed_segments": 8,
+            "median_s": 37.3,
+            "minimum_s": 31.7,
+            "maximum_s": 40.8
+          },
+          {
+            "segment": "Final Form channel",
+            "completed_segments": 8,
+            "median_s": 15.0,
+            "minimum_s": 15.0,
+            "maximum_s": 15.0
+          },
+          {
+            "segment": "P4 including channel",
+            "completed_segments": 3,
+            "median_s": 66.5,
+            "minimum_s": 65.2,
+            "maximum_s": 73.5
+          }
+        ],
+        "openings": [
+          {
+            "phase": 1,
+            "sequence": [
+              "Greens",
+              "Curse",
+              "Orb",
+              "Puddles"
+            ],
+            "count": 43,
+            "total_with_four_casts": 43
+          },
+          {
+            "phase": 2,
+            "sequence": [
+              "Greens",
+              "Charge",
+              "Red lines",
+              "Spears"
+            ],
+            "count": 21,
+            "total_with_four_casts": 21
+          },
+          {
+            "phase": 3,
+            "sequence": [
+              "Greens",
+              "Red Blades",
+              "Teleport",
+              "Geometry"
+            ],
+            "count": 15,
+            "total_with_four_casts": 16
+          }
+        ]
+      }
+    },
+    "total_fights": {
+      "method": "Join complete P1, Split70, P2, Split40, P3, Split10 and P4-including-channel segments within each recording; sum within recording, then calculate median/min/max. Exclude recordings missing any segment.",
+      "summary": {
+        "CM": {
+          "completed_recordings": 46,
+          "median_s": 484.0,
+          "minimum_s": 409.0,
+          "maximum_s": 592.2
+        },
+        "LCM": {
+          "completed_recordings": 3,
+          "median_s": 567.0,
+          "minimum_s": 557.9,
+          "maximum_s": 592.0
+        }
+      }
+    }
+  },
+  "boss_defiance_empowerment": {
+    "method": "All 501 CM/LCM recordings. Boss active defiance bar exits; strict subset has bar health <=10% within500ms before exit. Empowered81002 applications grouped within10ms, examined +/-500ms around recorded bar exit because state updates lag actual break. Other stack gains and overlaps retained.",
+    "summary": {
+      "CM": {
+        "near_zero_bar_exits": 520,
+        "with_ten_stack_burst": 516,
+        "total_apps": {
+          "10": 477,
+          "11": 42,
+          "12": 1
+        }
+      },
+      "LCM": {
+        "near_zero_bar_exits": 44,
+        "with_ten_stack_burst": 44,
+        "total_apps": {
+          "10": 41,
+          "12": 1,
+          "11": 2
+        }
+      }
+    }
   }
 }
